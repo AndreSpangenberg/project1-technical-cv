@@ -10,7 +10,7 @@ function NavigateBar() {
         <>  
          <nav className='navigateBar'>
             <div className='navigateBar-container'>
-                <Link to='/' className='navigateBar-Logo' onClick = {closeMenu}>
+                <Link to='/home' className='navigateBar-Logo' onClick = {closeMenu}>
                    Andre Spangenberg 
                    <i className ='fab fa-typo3'/>
                 </Link>
