@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .about,
+  .contactInfo,
+  
+  .contactInfo {
+    background-image: url('/images/photo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .resume-right-col {
+    background: #27221F;
+    color: white;
+    padding: 2em;
+  }
