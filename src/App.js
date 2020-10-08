@@ -17,7 +17,6 @@ function App() {
           <Route path="/contactInfo" component = {ContactInfo} />
         </Switch>
       </Router>
-    
     </>
   );
 }

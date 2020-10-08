@@ -15,8 +15,8 @@ export default function Email() {
           e.target.reset()
     }
     return(
-        <div>
-            <h1>Contact Me </h1>
+        <div className = 'email-layout'>
+            <h1>Contact Me</h1>
             <div className="email-container">
             <form onSubmit={sendEmail}>
                 <div className="row-8 pt-5 mx-auto">
@@ -33,7 +33,7 @@ export default function Email() {
                         <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name = "Message"></textarea>
                     </div>
                     <div className="col-8 form-group pt-3 mx-auto">
-                        <input type="submit" className="btn btn-info" value= "Send Message"></input>
+                        <input type="submit" className="btn btn-info" value= "Send Message" style={{backgroundColor: 'black'}} ></input>
                     </div>
                     
                 </div>
@@ -41,6 +41,7 @@ export default function Email() {
             </form>
             </div>
         </div>
+    
     );
 }
 

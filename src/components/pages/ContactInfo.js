@@ -5,7 +5,7 @@ import Email from '../email';
 function Contact() {
     return (
       <>
-        <h1 className="contact">Contact me</h1>;
+        <img id= "backgroundImg" alt=""></img>
         <Email />
       </>
     );
