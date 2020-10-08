@@ -1,6 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import Email from '../email';
 
-export default function ContactInfo() {
-    return <h1 className="contactInfo">CONTACT-INFO</h1>;
+function Contact() {
+    return (
+      <>
+        <h1 className="contact">Contact me</h1>;
+        <Email />
+      </>
+    );
 }
+export default Contact;
