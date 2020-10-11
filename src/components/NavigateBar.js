@@ -12,7 +12,6 @@ function NavigateBar() {
             <div className='navigateBar-container'>
                 <Link to='/' className='navigateBar-Logo' onClick = {closeMenu}>
                    Andre Spangenberg 
-                   <i className ='fab fa-typo3'/>
                 </Link>
                 <div className = 'menu-icon' onClick = {handleClick}>
                     <i className = {click ? 'fas fa-times' : 'fas fa-bars'} />
