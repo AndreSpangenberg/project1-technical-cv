@@ -54,4 +54,13 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+  <script>
+    document.querySelector(".hero-container p").style.display = "none";
+    document.querySelector(".hero-container").classList.add("spinner-1");
+    setTimeout(() => {
+      document.querySelector(".hero-container").classList.remove("spinner-1");
+      document.querySelector(".hero-container p").style.display = "block";
+      }, 4000);
+  </script>
 </html>
