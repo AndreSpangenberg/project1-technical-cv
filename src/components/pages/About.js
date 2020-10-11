@@ -9,10 +9,10 @@ function About() {
         <Resume />
         <div className="page-container">
            <div className="content-wrap">
-             
+
            </div>
-        </div>
-        <Footer />
+      </div>
+      <Footer />
       </>
     );
 }

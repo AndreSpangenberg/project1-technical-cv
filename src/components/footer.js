@@ -15,26 +15,30 @@ function Footer() {
       <div className="container">
       <div className='social-container'>
             <h1>Socail Media:</h1>
-            <a>
+            <a
                 href="https://www.facebook.com/andre.spangenberg.54"
                 className="Facebook social"
+            > 
+              <FontAwesomeIcon icon={faFacebook} size= '2x' />
             </a>
-            <FontAwesomeIcon icon={faFacebook} size= '2x' />
-            <a>
+            <a
                 href="https://www.instagram.com/andre_spangenberg/"
                 className="Instagram social"
+            >
+               <FontAwesomeIcon icon={faInstagram} size= '2x' />
             </a>
-            <FontAwesomeIcon icon={faInstagram} size= '2x' />
-            <a>
+            <a
                 href="https://www.linkedin.com/feed/"
                 className="LinkedIn social"
+            >
+              <FontAwesomeIcon icon={faLinkedin} size= '2x' />
             </a>
-            <FontAwesomeIcon icon={faLinkedin} size= '2x' />
-            <a>
+            <a
                 href="https://github.com/AndreSpangenberg/technical-CV"
                 className="GitHub social"
+            >
+              <FontAwesomeIcon icon={faGithub} size= '2x' />
             </a>
-            <FontAwesomeIcon icon={faGithub} size= '2x' />
         </div>
       <div className="row">
           <p className="col-sm">
